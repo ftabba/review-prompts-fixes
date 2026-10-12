@@ -11,8 +11,9 @@ the code requires for safe usage. A contract: what a helper guarantees, returns 
 which of several look-alikes is used when. Orientation: where something lives and what this tree
 calls it, where a reader's memory offers another name. `catalogue/hyp-arm64-measurement.md` is the
 wider set the readers were measured on and `catalogue/hyp-arm64-measurement-results.md` says what
-they got wrong. No number says how long an answer or the guide should be. Format:
-`../../docs/subsystem-questions.md`.
+they got wrong. The part "How findings are judged" is not built from a question: the build inserts
+`../verbatim/hyp-arm64-policy.md`, which is kept by hand. No number says how long an answer or the
+guide should be. Format: `../../docs/subsystem-questions.md`.
 
 # Main structures
 
@@ -767,6 +768,13 @@ from `__do_ffa_mem_xfer()`.
 
 How does the proxy answer a feature query from the host, and what has to change when the FF-A
 specification adds an optional interface that the hypervisor does not implement?
+
+# How findings are judged
+
+## hyp.policy: How findings are judged
+
+- section: How findings are judged
+- verbatim: ../verbatim/hyp-arm64-policy.md
 
 # Model gaps
 
